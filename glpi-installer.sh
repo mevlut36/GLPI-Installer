@@ -7,7 +7,7 @@ apt update
 # Installer Apache, PHP et les extensions requises
 echo "Installation d'Apache et PHP..."
 apt install -y apache2 libapache2-mod-php
-apt install -y php php-{mysql,gd,mbstring,xml,simplexml,xmlrpc,ldap,cas,curl,imap,zip,bz2,intl,apcu,cli,json}
+apt install -y php php-xml php-common php-json php-mysql php-mbstring php-curl php-gd php-intl php-zip php-bz2 php-imap php-apcu php-ldap
 
 # Installer MariaDB
 echo "Installation de MariaDB..."
