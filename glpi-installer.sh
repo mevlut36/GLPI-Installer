@@ -22,9 +22,9 @@ mysql -e "FLUSH PRIVILEGES;"
 
 # Télécharger et extraire GLPI
 echo "Téléchargement et extraction de GLPI..."
-wget -q https://github.com/glpi-project/glpi/releases/download/10.0.7/glpi-10.0.7.tgz
-tar -xzf glpi-10.0.7.tgz
-rm glpi-10.0.7.tgz
+wget -q https://github.com/glpi-project/glpi/releases/download/10.0.14/glpi-10.0.14.tgz
+tar -xzf glpi-10.0.14.tgz
+rm glpi-10.0.14.tgz
 
 # Copier les fichiers GLPI dans le répertoire Apache
 echo "Copie des fichiers GLPI dans le répertoire Apache..."
